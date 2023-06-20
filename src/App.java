@@ -11,7 +11,7 @@ public class App {
         Pessoa p5 = new Pessoa(14, "POLY", 37 );
         ControlPessoaArray ctrlPessoa = new ControlPessoaArray();
         
-        ctrlPessoa.adicionarPessoaVazio(10, p1,p2,p3);
+        ctrlPessoa.adicionarPessoaVazio(4, p1,p2,p3);
         //ctrlPessoa.adicionarPessoa(2,p1, p2);
 
         ctrlPessoa.atualizarPessoa(new Pessoa(12, "POLYANA", 38));
